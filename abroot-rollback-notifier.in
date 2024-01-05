@@ -1,0 +1,122 @@
+#!@PYTHON@
+#
+# Copyright 2023 Vanilla OS Contributors
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundationat version 3 of the License.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+from typing import Optional
+import subprocess
+import gettext
+import shutil
+import signal
+import sys
+import locale
+
+pkgdatadir = "@pkgdatadir@"
+localedir = "@localedir@"
+
+sys.path.insert(1, pkgdatadir)
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+locale.bindtextdomain("abroot-rollback-notifier", localedir)
+locale.textdomain("abroot-rollback-notifier")
+gettext.install("abroot-rollback-notifier", localedir)
+
+_ = gettext.gettext
+
+
+class AdwDialog:
+    def __init__(self) -> None:
+        self.adwdialog_path: Optional[str] = shutil.which("adwdialog")
+
+    def show_dialog(self, title: str, description: str, dialog_type: str) -> int:
+        if not self.adwdialog_path:
+            raise RuntimeError("adwdialog not found.")
+
+        command = [
+            self.adwdialog_path,
+            "--title",
+            title,
+            "--description",
+            description,
+            "--type",
+            dialog_type,
+        ]
+
+        return subprocess.run(command, check=False).returncode
+
+
+class AbrootCommand:
+    def __init__(self) -> None:
+        self.abroot_path: Optional[str] = shutil.which("abroot")
+        self.pkexec_path: Optional[str] = shutil.which("pkexec")
+
+    def is_abroot_available(self) -> bool:
+        return bool(self.abroot_path)
+
+    def is_pkexec_available(self) -> bool:
+        return bool(self.pkexec_path)
+
+    def rollback(self, check_only: bool = False) -> int:
+        if not self.abroot_path:
+            raise RuntimeError("abroot not found.")
+
+        if not self.pkexec_path:
+            raise RuntimeError("pkexec not found.")
+
+        args = ["rollback"] + (["--check-only"] if check_only else [])
+        return subprocess.run(
+            [self.pkexec_path, self.abroot_path, *args], check=False
+        ).returncode
+
+
+class ABRollbackCheck:
+    def __init__(self) -> None:
+        self.adw_dialog = AdwDialog()
+        self.abroot_command = AbrootCommand()
+
+    def run(self) -> None:
+        check_res = self.abroot_command.rollback(check_only=True)
+        if check_res != 0:
+            return  # no rollback needed
+
+        title = _("Rollback is possible")
+        description = _(
+            "It appears you booted to the previous root. Do you want to rollback to the current state?"
+        )
+        dialog_type = "question"
+        adw_res = self.adw_dialog.show_dialog(title, description, dialog_type)
+        if adw_res == 0:
+            rollback_res = self.abroot_command.rollback(check_only=True)
+            if rollback_res == 0:
+                title, description, dialog_type = (
+                    _("Success"),
+                    _("Rollback has been completed successfully."),
+                    "info",
+                )
+            else:
+                title, description, dialog_type = (
+                    _("Error"),
+                    _("Rollback failed."),
+                    "error",
+                )
+
+            self.adw_dialog.show_dialog(title, description, dialog_type)
+
+
+def main() -> None:
+    ab_rollback_check = ABRollbackCheck()
+    ab_rollback_check.run()
+
+
+if __name__ == "__main__":
+    main()
