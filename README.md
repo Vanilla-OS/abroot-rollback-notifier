@@ -1,7 +1,6 @@
 # ABRoot Rollback Notifier
 
-This small script simply checks if an ABRoot system requires a rollback. If so,
-it will prompt the user to do so.
+This small script simply checks if an ABRoot system requires a rollback. If so, it will prompt the user to do so.
 
 ## Usage
 
@@ -17,13 +16,13 @@ abroot-rollback-notifier
 The utility can be installed with the following command:
 
 ```bash
-meson mesonbuild
-ninja -C mesonbuild
-sudo ninja -C mesonbuild install
+meson setup build
+ninja -C build
+sudo ninja -C build install
 ```
 
 ## Requirements
 
-- adwdialog
-- pkexec
-- abroot (obviously)
+- [`adwdialog`](https://github.com/Vanilla-OS/AdwDialog)
+- `pkexec`
+- [`abroot`](https://github.com/Vanilla-OS/ABRoot) (obviously)
