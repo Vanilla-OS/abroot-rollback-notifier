@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the abroot-rollback-notifier package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: abroot-rollback-notifier\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-05 23:43+0100\n"
+"POT-Creation-Date: 2024-05-13 20:17+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,28 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: abroot-rollback-notifier:86
+#: abroot-rollback-notifier.in:92
 msgid "Rollback is possible"
 msgstr ""
 
-#: abroot-rollback-notifier:88
+#: abroot-rollback-notifier.in:94
 msgid ""
 "It appears you booted to the previous root. Do you want to rollback to the "
 "current state?"
 msgstr ""
 
-#: abroot-rollback-notifier:98
+#: abroot-rollback-notifier.in:102
 msgid "Success"
 msgstr ""
 
-#: abroot-rollback-notifier:99
+#: abroot-rollback-notifier.in:103
 msgid "Rollback has been completed successfully."
 msgstr ""
 
-#: abroot-rollback-notifier:104
+#: abroot-rollback-notifier.in:108
 msgid "Error"
 msgstr ""
 
-#: abroot-rollback-notifier:105
+#: abroot-rollback-notifier.in:109
 msgid "Rollback failed."
 msgstr ""
