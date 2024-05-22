@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Philip Goto <philip.goto@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-13 20:17+0530\n"
+"PO-Revision-Date: 2024-05-19 07:55+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "Terugrollen is mogelĳk"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to the "
+"current state?"
+msgstr ""
+"Het lĳkt erop dat u heeft opgestart vanaf de vorige root. Wilt u teruggaan "
+"naar de huidige status?"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "Voltooid"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "Terugrollen is succesvol afgerond."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "Fout"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "Terugrollen is mislukt."
