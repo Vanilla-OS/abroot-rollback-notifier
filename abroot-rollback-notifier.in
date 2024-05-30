@@ -91,7 +91,7 @@ class ABRollbackCheck:
 
         title = _("Rollback is possible")
         description = _(
-            "It appears you booted to the previous root. Do you want to rollback to the current state?"
+            "It appears you booted to the previous root. Do you want to rollback to this state?"
         )
         dialog_type = "question"
         adw_res = self.adw_dialog.show_dialog(title, description, dialog_type)
