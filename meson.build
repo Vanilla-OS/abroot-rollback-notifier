@@ -19,7 +19,6 @@ conf.set('pkgdatadir', pkgdatadir)
 configure_file(
   input: 'abroot-rollback-notifier.in',
   output: 'abroot-rollback-notifier',
-  install_mode: 'rwxr-xr-x',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir'),
