@@ -2,21 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the abroot-rollback-notifier package.
 # Fedorov Alexei <aleksejfedorov963@gmail.com>, 2024.
+# Vin <k3kelm4vw@mozmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: abroot-rollback-notifier\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 14:54+0530\n"
-"PO-Revision-Date: 2024-05-14 20:01+0000\n"
-"Last-Translator: Fedorov Alexei <aleksejfedorov963@gmail.com>\n"
+"PO-Revision-Date: 2024-06-07 23:09+0000\n"
+"Last-Translator: Vin <k3kelm4vw@mozmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "abroot-rollback-notifier/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.6-dev\n"
 
 #: abroot-rollback-notifier.in:92
@@ -24,16 +25,12 @@ msgid "Rollback is possible"
 msgstr "Откат возможен"
 
 #: abroot-rollback-notifier.in:94
-#, fuzzy
-#| msgid ""
-#| "It appears you booted to the previous root. Do you want to rollback to "
-#| "the current state?"
 msgid ""
 "It appears you booted to the previous root. Do you want to rollback to this "
 "state?"
 msgstr ""
-"Похоже, Вы загрузились в предыдущий корень. Хотите ли Вы выполнить откат к "
-"текущему состоянию?"
+"Похоже, вы загрузились в предыдущий корень. Хотите ли вы выполнить откат к "
+"этому состоянию?"
 
 #: abroot-rollback-notifier.in:102
 msgid "Success"
@@ -49,4 +46,4 @@ msgstr "Ошибка"
 
 #: abroot-rollback-notifier.in:109
 msgid "Rollback failed."
-msgstr "Не удалось выполнить откат."
+msgstr "Откат не удался."
