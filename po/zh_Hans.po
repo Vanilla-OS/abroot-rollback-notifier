@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# lakejason0 <sunliyuan200402@outlook.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-06-15 17:24+0000\n"
+"Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"vanilla-os/abroot-rollback-notifier/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "可以回滚"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr "您似乎启动到了上一个根分区。要回滚到这个状态吗？"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "成功"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "回滚成功完成。"
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "错误"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "回滚失败。"
