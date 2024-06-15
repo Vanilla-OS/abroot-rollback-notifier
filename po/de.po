@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Experiencing A Significant Gravitas Shortfall <bedeb1@pm.me>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-06-02 21:55+0000\n"
+"Last-Translator: Experiencing A Significant Gravitas Shortfall <bedeb1@pm.me>"
+"\n"
+"Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "Ein Rückgängigmachen ist möglich"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr ""
+"Scheinbar haben Sie die vorherige Wurzel hochgefahren. Wollen Sie zu dieser "
+"Wurzel zurückkehren?"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "Erfolg"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "Rückkehr erfolgreich abgeschlossen."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "Fehler"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "Rückkehr gescheitert."
