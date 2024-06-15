@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: abroot-rollback-notifier\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 14:54+0530\n"
-"PO-Revision-Date: 2024-05-30 08:54+0000\n"
+"PO-Revision-Date: 2024-06-03 12:30+0000\n"
 "Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
 "abroot-rollback-notifier/sv/>\n"
@@ -23,16 +23,12 @@ msgid "Rollback is possible"
 msgstr "Återställning är möjlig"
 
 #: abroot-rollback-notifier.in:94
-#, fuzzy
-#| msgid ""
-#| "It appears you booted to the previous root. Do you want to rollback to "
-#| "the current state?"
 msgid ""
 "It appears you booted to the previous root. Do you want to rollback to this "
 "state?"
 msgstr ""
 "Det verkar som att du startade till föregående root. Vill du återställa till "
-"nuvarande läge?"
+"det här tillståndet?"
 
 #: abroot-rollback-notifier.in:102
 msgid "Success"
