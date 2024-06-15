@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: abroot-rollback-notifier\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 14:54+0530\n"
-"PO-Revision-Date: 2024-05-22 13:32+0000\n"
+"PO-Revision-Date: 2024-06-07 23:09+0000\n"
 "Last-Translator: Notch Apple <Gapple1703@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
 "abroot-rollback-notifier/vi/>\n"
@@ -20,13 +20,15 @@ msgstr ""
 
 #: abroot-rollback-notifier.in:92
 msgid "Rollback is possible"
-msgstr ""
+msgstr "Có thể khôi phục"
 
 #: abroot-rollback-notifier.in:94
 msgid ""
 "It appears you booted to the previous root. Do you want to rollback to this "
 "state?"
 msgstr ""
+"Có vẻ như bạn đã khởi động phân vùng root trước đó. Bạn có muốn khôi phục về "
+"trạng thái này không?"
 
 #: abroot-rollback-notifier.in:102
 msgid "Success"
@@ -34,7 +36,7 @@ msgstr "Thành công"
 
 #: abroot-rollback-notifier.in:103
 msgid "Rollback has been completed successfully."
-msgstr ""
+msgstr "Việc khôi phục đã được thực hiện thành công."
 
 #: abroot-rollback-notifier.in:108
 msgid "Error"
@@ -42,4 +44,4 @@ msgstr "Lỗi"
 
 #: abroot-rollback-notifier.in:109
 msgid "Rollback failed."
-msgstr ""
+msgstr "Khôi phục thất bại."
