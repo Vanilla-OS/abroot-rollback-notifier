@@ -96,7 +96,7 @@ class ABRollbackCheck:
         dialog_type = "question"
         adw_res = self.adw_dialog.show_dialog(title, description, dialog_type)
         if adw_res == 0:
-            rollback_res = self.abroot_command.rollback(check_only=True)
+            rollback_res = self.abroot_command.rollback(check_only=False)
             if rollback_res == 0:
                 title, description, dialog_type = (
                     _("Success"),
