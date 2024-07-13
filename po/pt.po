@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Vinícius <vinicius.cgobbi2004@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-07-13 17:21+0000\n"
+"Last-Translator: Vinícius <vinicius.cgobbi2004@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "É possível reverter"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr ""
+"Ao que parece você iniciou na raiz antiga. Deseja voltar para esse estado?"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "Sucesso"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "A reversão foi finalizada com sucesso."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "Erro"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "Erro ao tentar reverter."
