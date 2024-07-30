@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-07-27 16:09+0000\n"
+"Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "التراجع ممكن"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr "يبدو أنك قمت بالإقلاع إلى الجذر السابق. هل تريد التراجع إلى هذه الحالة؟"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "نجاح"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "تم إكمال التراجع بنجاح."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "خطأ"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "فشل التراجع."
