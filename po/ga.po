@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-08-13 09:09+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "Is féidir aisghabháil a dhéanamh"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr ""
+"Dealraíonn sé go bhfuil tú tosaithe go dtí an fhréamh roimhe seo. Ar mhaith "
+"leat filleadh ar an stát seo?"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "Rath"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "Críochnaíodh an aisghabháil go rathúil."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "Earráid"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "Theip ar an aisghabháil."
