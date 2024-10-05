@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the abroot-rollback-notifier package.
+# Arif Budiman <arifpedia@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: abroot-rollback-notifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-30 14:54+0530\n"
+"PO-Revision-Date: 2024-10-05 17:22+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
+"abroot-rollback-notifier/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8-dev\n"
+
+#: abroot-rollback-notifier.in:92
+msgid "Rollback is possible"
+msgstr "Rollback dimungkinkan"
+
+#: abroot-rollback-notifier.in:94
+msgid ""
+"It appears you booted to the previous root. Do you want to rollback to this "
+"state?"
+msgstr ""
+"Tampaknya Anda mem-boot ke root sebelumnya. Apakah Anda ingin rollback ke "
+"kondisi ini?"
+
+#: abroot-rollback-notifier.in:102
+msgid "Success"
+msgstr "Berhasil"
+
+#: abroot-rollback-notifier.in:103
+msgid "Rollback has been completed successfully."
+msgstr "Rollback telah berhasil diselesaikan."
+
+#: abroot-rollback-notifier.in:108
+msgid "Error"
+msgstr "Kesalahan"
+
+#: abroot-rollback-notifier.in:109
+msgid "Rollback failed."
+msgstr "Rollback gagal."
